@@ -1,42 +1,82 @@
 ---
-name: Bug report
+name: Problem report
 about: Create a report to help us improve
-
 ---
 
-**IMPORTANT NOTICE**
-If you do not complete the template below it is likely that your issue will not be addressed. When providing information about your issue please be as extensive as possible so that it can be solved by as little as possible responses.
+<!-- Thanks for reporting a problem for this project. READ THIS FIRST:
 
-**FAILURE TO COMPLETE THE REQUESTED INFORMATION WILL RESULT IN YOUR ISSUE BEING CLOSED**
+This issue template is meant to REPORT Tasmota software PROBLEMS ONLY
 
-**Describe the bug**
-_A clear and concise description of what the bug is._
+Please DO NOT OPEN AN ISSUE:
+  - If your Tasmota version is not the latest from the development branch, please update your device before submitting your issue. Your problem might already be solved. The latest precompiled binaries of Tasmota can be downloaded from http://ota.tasmota.com/tasmota/
+  - If you have an issue when flashing was done via Tuya Convert, please address it to Tuya Convert Team
+  - If your issue is a flashing issue, please address it to the [Tasmota Support Chat](https://discord.gg/Ks2Kzd4)
+  - If your issue is compilation problem, please address it to the [Tasmota Support Chat](https://discord.gg/Ks2Kzd4)
+  - If your issue has been addressed before (i.e., duplicated issue), please ask in the original issue
+  - If your issue is a Wi-Fi problem or MQTT problem, please try the steps provided in the [FAQ](https://tasmota.github.io/docs/FAQ) and [Troubleshooting](https://tasmota.github.io/docs/Troubleshooting)
+
+ Please take a few minutes to complete the requested information below. Our ability to provide assistance is greatly hampered without it. The details requested potentially affect which options to pursue. The small amount of time you spend completing the template will also help the volunteers providing the assistance to you to reduce the time required to help you.
+
+DO NOT DELETE ANY TEXT from this template! Otherwise the issue will be auto-closed.
+-->
+
+### PROBLEM DESCRIPTION
+_A clear and concise description of what the problem is._
 
 
-_Also, make sure these boxes are checked [x] before submitting your issue - Thank you!_
-- [ ] _Searched the problem in issues and in the wiki_
-- [ ] _Hardware used_ : 
-- [ ] _Development/Compiler/Upload tools used_ :
-- [ ] _If a pre-compiled release or development binary was used, which one?_ :
-- [ ] _You have tried latest release or development binaries?_ :
-- [ ] _Provide the output of command_``status 0`` :
+### REQUESTED INFORMATION
+_Make sure your have performed every step and checked the applicable boxes before submitting your issue. Thank you!_
+
+- [ ] Read the [Contributing Guide and Policy](https://github.com/arendst/Tasmota/blob/development/CONTRIBUTING.md) and [the Code of Conduct](https://github.com/arendst/Tasmota/blob/development/CODE_OF_CONDUCT.md)
+- [ ] Searched the problem in [issues](https://github.com/arendst/Tasmota/issues)
+- [ ] Searched the problem in the [docs](https://tasmota.github.io/docs/FAQ)
+- [ ] Searched the problem in the [forum](https://groups.google.com/d/forum/sonoffusers)
+- [ ] Searched the problem in the [chat](https://discord.gg/Ks2Kzd4)
+- [ ] Device used (e.g., Sonoff Basic): _____
+- [ ] Tasmota binary firmware version number used: _____
+  - [ ] Pre-compiled
+  - [ ] Self-compiled
+    - [ ] IDE / Compiler used: _____
+- [ ] Flashing tools used: _____
+- [ ] Provide the output of command: `Backlog Template; Module; GPIO 255`:
 ```
-STATUS 0 OUTPUT HERE - DO NOT DELETE THE MARKERS ABOVE AND BELOW THIS LINE
+  Configuration output here:
+
+
+```
+- [ ] If using rules, provide the output of this command: `Backlog Rule1; Rule2; Rule3`:
+```
+  Rules output here:
+
+
+```
+- [ ] Provide the output of this command: `Status 0`:
+```
+  STATUS 0 output here:
+
+
+```
+- [ ] Provide the output of the Console log output when you experience your issue; if applicable:
+  _(Please use_ `weblog 4` _for more debug information)_
+```
+  Console output here:
+
+
 ```
 
-**To Reproduce**
+### TO REPRODUCE
 _Steps to reproduce the behavior:_
 
 
-**Expected behavior**
+### EXPECTED BEHAVIOUR
 _A clear and concise description of what you expected to happen._
 
 
-**Screenshots**
+### SCREENSHOTS
 _If applicable, add screenshots to help explain your problem._
 
 
-**Additional context**
+### ADDITIONAL CONTEXT
 _Add any other context about the problem here._
 
 
